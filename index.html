@@ -20,12 +20,36 @@
 
     </h1>
     <div class="game area">
+        <div class="controls-area">
+            <button class="btn btn--big btn--green"></button>
+            <i class="fas fa-plus"></i>
 
+
+            <button class="btn btn--big btn--blue"></button>
+            <i class="fas fa-minus"></i>
+
+            <button class="btn btn--big btn--orange"></button>
+            <i class="fas fa-times"></i>
+
+            <button class="btn btn--big btn--red"></button>
+            <i class="fas fa-divide"></i>
+        </div>
+        <div class="question-area">
+            <spam id="operand1">0</spam>
+            <spam id="operator">x</spam>
+            <spam id="operand2">0</spam>
+            <spam>=</spam>
+            <p class="answer-message">Enter Answer:</p>
+            <input id="answer-box" type="number">
+        </div>
+        <button class="btn btn--gray">Submit Answer</button>
     </div>
 
     <div class="score area">
-         <p class="scores">Correct Answers <spam id="score">0</spam></p>
-         <p class="scores">Incorrect Answers <spam id="Incorrect">0</spam></p>
+        <p class="scores">Correct Answers <spam id="score">0</spam>
+        </p>
+        <p class="scores">Incorrect Answers <spam id="Incorrect">0</spam>
+        </p>
 
     </div>
 
